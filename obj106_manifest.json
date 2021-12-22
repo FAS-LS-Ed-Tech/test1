@@ -1,0 +1,119 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://46973c19-0add-49e8-b6cc-943977f77be4",
+	"@type": "sc:Manifest",
+	"label": "Bruegel: Children’s Games",
+	"metadata": [
+		{
+			"label": "Date",
+			"value": "CE 1560"
+		},
+		{
+			"label": "Artist/Maker",
+			"value": "Pieter Bruegel the Elder"
+		},
+		{
+			"label": "Place of Origin",
+			"value": "Antwerp, Belgium"
+		},
+		{
+			"label": "Current Location",
+			"value": "Kunsthistorisches Museum, Vienna, Austria"
+		},
+		{
+			"label": "Form",
+			"value": "Painting"
+		}
+	],
+	"description": [
+		{
+			"@value": "This oil painting is of children and adults engaged in a variety of rugged games.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "CC BY-NC-SA 4.0 © KHM-Museumsverband",
+	"sequences": [
+		{
+			"@id": "http://a450dbea-d4c4-4f6a-a811-1b1fb1f57c48",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://8c17d684-8a82-4934-af67-8834a8f75df7",
+					"@type": "sc:Canvas",
+					"label": "Bruegel: Children’s Games",
+					"height": 2165,
+					"width": 3000,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://4bc8e894-98f7-416d-84d4-070d243cc7c3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://seadragon.hpc.nyu.edu/iiif/2/LS_Global_Image_Gallery%2Fobj106%2Fobj106.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://seadragon.hpc.nyu.edu/iiif/2/LS_Global_Image_Gallery%2Fobj106%2Fobj106.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2165,
+								"width": 3000
+							},
+							"on": "http://8c17d684-8a82-4934-af67-8834a8f75df7"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
